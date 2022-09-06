@@ -1,9 +1,10 @@
 import React from "react";
+import Player from "./Footer/Player";
 
 const Footer = () => {
   return (
     <div className="h-24 bg-footerBg border-t border-white border-opacity-5">
-      Footer
+      <Player />
     </div>
   );
 };
